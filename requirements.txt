@@ -1,0 +1,5 @@
+# Framework principal
+django>=4.2,<5.0
+
+# Django REST Framework
+djangorestframework>=3.14.0
