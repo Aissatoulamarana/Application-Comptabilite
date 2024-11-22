@@ -7,6 +7,7 @@ from .models import CustomUser, CompanySettings, Compte, Facture, Client, Tier, 
 
 admin.site.register(CustomUser)
 admin.site.register(CompanySettings)
+
 @admin.register(Compte)
 class CompteAdmin(admin.ModelAdmin):
     list_display = ('numero', 'libelle', 'type_compte', 'solde_initial', 'solde_actuel')
